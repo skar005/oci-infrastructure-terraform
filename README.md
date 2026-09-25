@@ -1,6 +1,6 @@
 # OCI Infrastructure (Terraform)
 
-Infrastructure as Code definitions to build a complete networking and compute environment on Oracle Cloud Infrastructure (OCI), reproducible from a single command instead of manual console configuration.
+Infrastructure as Code definitions to build a complete networking and compute environment on Oracle Cloud Infrastructure (OCI), built using simple commands rather than console configuration.
 
 ## Function
 
@@ -9,9 +9,9 @@ Infrastructure as Code definitions to build a complete networking and compute en
 - A security list allowing inbound SSH (22), HTTP (80), and the app's port (8080)
 - A compute instance (Ampere ARM, Always Free eligible) running Ubuntu 24.04, with a public IP and SSH access configured via a provided public key
 
-## Why I built it
+## Purpose
 
-I originally set this up manually through Oracle's web console, which was slow and prone to errors. Rewriting it as Terraform meant the entire environment could be created, verified, and destroyed with a single command.
+I originally set this up manually through Oracle's web console, which was slow and prone to errors. Rewriting it as Terraform allows the environment to be created, verified, and destroyed with simple commands.
 
 ## Usage
 
